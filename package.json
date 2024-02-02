@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "sample-react-router-generouted",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "apps:front": "pnpm --filter @sample-react-router-generouted/front"
+  },
+  "packageManager": "pnpm@8.11.0",
+  "engines": {
+    "node": ">=20.10.0",
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.11.0"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.2"
+  }
+}
